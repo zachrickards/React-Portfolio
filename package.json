@@ -1,0 +1,20 @@
+{
+  "name": "react-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio to show work that I have done",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config config/webpack.config.dev.js --progress --colors",
+    "build": "webpack --config config/webpack.config.prod.js --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachrickards/React-Portfolio.git"
+  },
+  "author": "Zachary Rickards",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachrickards/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/zachrickards/React-Portfolio#readme"
+}
